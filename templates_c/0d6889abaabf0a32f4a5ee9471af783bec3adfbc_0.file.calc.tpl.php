@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-03-16 08:04:35
+/* Smarty version 3.1.39, created on 2021-03-17 19:10:34
   from 'F:\xampp\htdocs\kalk_szablon\app\calc.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_605058832c29f4_56136146',
+  'unifunc' => 'content_6052461ab66e83_53277234',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0d6889abaabf0a32f4a5ee9471af783bec3adfbc' => 
     array (
       0 => 'F:\\xampp\\htdocs\\kalk_szablon\\app\\calc.tpl',
-      1 => 1615825094,
+      1 => 1615881188,
       2 => 'file',
     ),
   ),
@@ -20,22 +20,22 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_605058832c29f4_56136146 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6052461ab66e83_53277234 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1308015395605058832b0755_71297528', 'content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_11415254656052461ab4fbb2_87948411', 'content');
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/main.tpl");
 }
 /* {block 'content'} */
-class Block_1308015395605058832b0755_71297528 extends Smarty_Internal_Block
+class Block_11415254656052461ab4fbb2_87948411 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_1308015395605058832b0755_71297528',
+    0 => 'Block_11415254656052461ab4fbb2_87948411',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -97,11 +97,11 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
             <div class="col-md-5">
 
-                <div class="p-4 mb-3 bg-white">
+                <div class="p-4 mb-3">
                     <?php if ((isset($_smarty_tpl->tpl_vars['notification']->value))) {?>
                         <?php if (count($_smarty_tpl->tpl_vars['notification']->value) > 0) {?>
-                            <h4>Wystąpiły błędy: </h4>
-                            <ol class="error">
+                            <h4>   Wystąpiły błędy: </h4>
+                            <ol class="err">
                                 <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['notification']->value, 'msg');
 $_smarty_tpl->tpl_vars['msg']->do_else = true;
@@ -119,7 +119,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 
                     <?php if ((isset($_smarty_tpl->tpl_vars['result']->value))) {?>
                         <h4>Twoja rata: </h4>
-                        <p class="wyn">
+                        <p class="oky">
                             <?php echo $_smarty_tpl->tpl_vars['result']->value;?>
 
                         </p>

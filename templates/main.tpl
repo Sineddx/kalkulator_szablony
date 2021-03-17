@@ -68,7 +68,7 @@
 
 
 
-    <div class="site-blocks-cover overlay" style="background-image: url(../images/hero_1.jpg);" data-aos="fade" id="home-section">
+    <div class="site-blocks-cover overlay" style="background-image: url({$app_url}/images/hero_1.jpg);" data-aos="fade" id="home-section">
 
 
         <div class="container">

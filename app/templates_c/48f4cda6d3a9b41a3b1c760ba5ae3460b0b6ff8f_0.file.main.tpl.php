@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-03-16 08:06:16
+/* Smarty version 3.1.39, created on 2021-03-17 19:16:30
   from 'F:\xampp\htdocs\kalk_szablon\templates\main.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_605058e871c8b9_04252040',
+  'unifunc' => 'content_6052477e11ab85_80279637',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '48f4cda6d3a9b41a3b1c760ba5ae3460b0b6ff8f' => 
     array (
       0 => 'F:\\xampp\\htdocs\\kalk_szablon\\templates\\main.tpl',
-      1 => 1615878370,
+      1 => 1616004987,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_605058e871c8b9_04252040 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6052477e11ab85_80279637 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -106,7 +106,8 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 
 
 
-    <div class="site-blocks-cover overlay" style="background-image: url(../images/hero_1.jpg);" data-aos="fade" id="home-section">
+    <div class="site-blocks-cover overlay" style="background-image: url(<?php echo $_smarty_tpl->tpl_vars['app_url']->value;?>
+/images/hero_1.jpg);" data-aos="fade" id="home-section">
 
 
         <div class="container">
@@ -123,7 +124,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 
     <section class="site-section bg-light bg-image" id="kalkulator">
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_195172554605058e8717667_37392250', 'content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_15541407806052477e1154e4_57138419', 'content');
 ?>
 
     </section>
@@ -229,12 +230,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_195172554605058e87
 </body>
 </html><?php }
 /* {block 'content'} */
-class Block_195172554605058e8717667_37392250 extends Smarty_Internal_Block
+class Block_15541407806052477e1154e4_57138419 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_195172554605058e8717667_37392250',
+    0 => 'Block_15541407806052477e1154e4_57138419',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
